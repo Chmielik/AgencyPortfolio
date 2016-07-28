@@ -1,0 +1,30 @@
+{
+  "name": "agency_portfolio",
+  "version": "1.0.0",
+  "description": "sample website",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "*"
+  },
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^1.0.0",
+    "load-grunt-tasks": "^3.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chmielik/AgencyPortfolio.git"
+  },
+  "author": "daniel.chmiel@outlook.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chmielik/AgencyPortfolio/issues"
+  },
+  "homepage": "https://github.com/Chmielik/AgencyPortfolio#readme"
+}

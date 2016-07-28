@@ -1,0 +1,233 @@
+html, body {
+    width: 100%;
+    font-family: 'Dosis', sans-serif;
+}
+
+
+section#top {
+    background-image: url('../img/top.png');
+    background-size: 100% 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+
+    header {
+        margin-top: 30px;
+        overflow: hidden;
+    }
+
+    .logo {
+        float: left;
+    }
+
+    nav {
+        float: right;
+        margin-top: 15px;
+
+        ul {
+            margin: 0;
+
+            li {
+                float: left;
+                list-style-type: none;
+
+                &:not(:last-child) {
+                    margin-right: 15px;
+                }
+
+                a {
+                    color: #FFF;
+                    text-transform: uppercase;
+                    text-decoration: none;
+                    font-size: 12pt;
+
+                    &:hover {
+                        color: #dedede;
+                    }
+                }
+            }
+        }
+    }
+
+    .slider {
+        margin-top: 80px;
+        color: #FFF;
+        overflow: hidden;
+
+        h2 {
+            font-size: 42pt;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+
+        h4 {
+            font-size: 28pt;
+            text-transform: uppercase;
+        }
+
+        hr {
+            width: 150px;
+            float: left;
+            border-top: 5px solid #FFF; 
+        }
+
+        p {
+            float: left;
+            clear: both;
+            width: 430px;
+            line-height: 25px;
+        }
+    }
+
+    .scroll {
+        background-color: #ffffff;
+        width: 50px;
+        height: 50px;
+        transform: rotate(45deg);
+        margin: 0 auto;
+        border: 3px solid rgba(216, 216, 216, 0.4);
+        cursor: pointer;
+
+        .fa {
+            transform: rotate(315deg);
+            margin-top: 15px;
+            margin-left: 15px;
+            color: #949494;
+        }
+    }
+}
+
+section#clients {
+    h4 {
+        margin: 5px 0 0;
+        text-transform: uppercase;
+        font-size: 25pt;
+        letter-spacing: -1px;
+    }
+
+    img {
+        background-color: #dddddd;
+        height: 70px;
+        float: right;
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+    span, .fa {
+        color: #f16522;
+    }
+}
+
+section#works {
+    background-image: url('../img/works.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 664px;
+    color: #3d3d3d;    
+
+    .desc {
+        margin-top: 140px;
+
+        h3, h4 {
+            color: #3d3d3d;
+            margin: 0;
+            font-family: sans-serif;
+        }
+
+        h3 {
+            font-size: 50pt;
+        }
+
+        h4 {
+            font-size: 30pt;
+        }
+
+        hr {
+            width: 80px;
+            border-top: 4px solid #f16522;
+            float: left;
+        }
+
+        p {
+            float: left;
+            clear: both;
+            line-height: 35px;
+            font-size: 14pt;
+        }
+
+        .btn {
+            border-radius: 0;
+            background-color: #363636;
+            color: #FFF;
+            font-size: 13pt;
+            text-transform: uppercase;
+            padding: 14px 18px;
+        }
+    }
+}
+
+section#experience {
+    background-color: #FFF;
+    color: #3d3d3d;
+    padding-bottom: 25px;
+
+    h3 {
+        font-size: 50pt;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    h4 {
+        font-size: 30pt;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+
+    hr {
+        width: 80px;
+        border-top: 4px solid #f16522;
+        float: left;
+    }
+
+    p {
+        float: left;
+        clear: both;
+        line-height: 35px;
+        font-size: 14pt;
+    }
+
+    .btn {
+        border-radius: 0;
+        background-color: #363636;
+        color: #FFF;
+        font-size: 13pt;
+        text-transform: uppercase;
+        padding: 14px 18px;
+    }
+}
+
+footer#footer {
+    background-color: #e7eaed;
+    color: #3d3d3d;
+    padding: 30px 0;
+
+    h4, h3 {
+        font-size: 16pt;
+        text-transform: uppercase;
+        font-weight: bold;
+        color: #3d3d3d;
+    }
+
+    h3 {
+        font-size: 18pt;
+        margin: 10px 0;
+    }
+
+    input {
+        border-radius: 0;
+        width: 80%;
+        border: none;
+    }
+}
